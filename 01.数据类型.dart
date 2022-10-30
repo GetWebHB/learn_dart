@@ -1,4 +1,3 @@
-
 main() {
   // print('hi ice');
 
@@ -26,6 +25,9 @@ main() {
   // // num1 = 102.3;
   // print(num1);
   // print(num2);
+  num num1 = 10;
+  num1 = 10.1;
+  print(num1);
 
   //3. bool
   // var flag = true;
@@ -54,7 +56,6 @@ main() {
   // print(l4);
   // print(l1[0]);
 
-
   //Map数据类型
   // var obj = {
   //   'name': 'ice',
@@ -74,7 +75,7 @@ main() {
   //   1: 'ice',
   //   2: 'panda'
   // };
-  
+
   // print(obj[1]);
 
   // 判断数据类型
@@ -82,17 +83,10 @@ main() {
   // print(str1 is String);
 
   // 判断是否相当
-  var obj = {
-    'name': 'ice'
-  };
-
-  var obj2 = {
-    "name": 'panda'
-  };
-
-  var str1 = 'ice';
-  var str2 = 'ice';
-
-  print(obj == obj2);
-  print(str1 == str2);
+  // var obj = {'name': 'ice'};
+  // var obj2 = {"name": 'panda'};
+  // var str1 = 'ice';
+  // var str2 = 'ice';
+  // print(obj == obj2);
+  // print(str1 == str2);
 }
