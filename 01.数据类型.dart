@@ -56,17 +56,24 @@ main() {
 
 
   //Map数据类型
-  var obj = {
-    'name': 'ice',
-    'age':20,
-  };
+  // var obj = {
+  //   'name': 'ice',
+  //   'age':20,
+  // };
 
-  obj['friend'] = {
-    'name1': 'panpan',
-    'name2': 'quezz'
-  };
+  // obj['friend'] = {
+  //   'name1': 'panpan',
+  //   'name2': 'quezz'
+  // };
 
-  print(obj);
-  print(obj['name']);
+  // print(obj);
+  // print(obj['name']);
+  // print(obj.length);
 
+  // var obj = {
+  //   1: 'ice',
+  //   2: 'panda'
+  // };
+  
+  // print(obj[1]);
 }
