@@ -76,4 +76,23 @@ main() {
   // };
   
   // print(obj[1]);
+
+  // 判断数据类型
+  // var str1 = 'hi ice';
+  // print(str1 is String);
+
+  // 判断是否相当
+  var obj = {
+    'name': 'ice'
+  };
+
+  var obj2 = {
+    "name": 'panda'
+  };
+
+  var str1 = 'ice';
+  var str2 = 'ice';
+
+  print(obj == obj2);
+  print(str1 == str2);
 }
