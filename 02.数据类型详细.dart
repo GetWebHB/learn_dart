@@ -63,6 +63,17 @@ void main() {
   // friends.addAll({'2', '3'});
   // print(friends.length);
 
+  // Maps 对象映射 （... 和 ...?）
+  // 1. 定义方式
+  // var obj = {'name': 'ice'};
+  // Map<String, int> obj2 = {'name2': 1};
 
-  // Maps 对象映射
+  // 2. 获取 赋值与js一样
+  // 3. 如果key不存在 返回null
+  // 4. maps.length 获取key的值
+
+  // print(obj);
+  // print(obj2);
+
+  // Symbols 表示 Dart 中声明的操作符或者标识符
 }
