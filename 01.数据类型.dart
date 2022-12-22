@@ -1,5 +1,6 @@
 main() {
   /*
+    0. 静态类型语言 严格区分类型
     1. Numbers (int, double)
     2. Strings (String)
     3. Booleans (bool)
