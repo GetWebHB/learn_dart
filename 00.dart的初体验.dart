@@ -26,6 +26,7 @@ void main() {
   // print(num);
 
   // 5. final const 实例变量 可以是 final 的但不可以是 const，
+  // Const变量必须用常量初始化。
 
   // final num = 100;
   // const num = 100;
@@ -63,4 +64,5 @@ void PrintNumber(num) {
       非空安全
       int? num = 100;
       num = null;
+  3. 所有undefined 的特性 都在dart中的null体现
 */ 
