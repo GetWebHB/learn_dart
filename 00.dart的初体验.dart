@@ -2,6 +2,8 @@ late String desc;
 void main() {
   // PrintNumber(100);
 
+  // print(desc);
+
   // 1. 非空安全
   // int? num = 100;  -> int num = 100 空安全
   // num = null;
@@ -44,6 +46,7 @@ void main() {
   //6. 类型检查(is)和类型转换(as)
   const Object i = 3;
   const list = [i as int, 9, 5];
+  print(list);
   // if语句也能写成表达式
   const map = {if (i is int) i: 'int'};
   const set = {if (list is List) ...list};

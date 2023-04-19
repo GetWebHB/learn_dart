@@ -34,10 +34,10 @@ main() {
   // print('ice $str1 $str2');
 
   //2. int double
-  // var num1 = 100;
+  var num1 = 100;
   // double num2 = 200;
   // // // num2 = '30';
-  // // num1 = 102.3;
+  // num1 = 102.3;
   // print(num1);
   // print(num2);
   // num num1 = 10;
@@ -47,7 +47,7 @@ main() {
   //3. bool
   // var flag = true;
   // bool flag2 = false;
-  // // flag2 = 0;
+  // flag2 = 0;
   // print(flag);
   // print(flag2);
 
@@ -72,10 +72,10 @@ main() {
   // print(l1[0]);
 
   //Map数据类型
-  // var obj = {
-  //   'name': 'ice',
-  //   'age':20,
-  // };
+  var obj = {
+    'name': 'ice',
+    'age': 20,
+  };
 
   // obj['friend'] = {
   //   'name1': 'panpan',
@@ -100,8 +100,8 @@ main() {
   // 判断是否相当
   // var obj = {'name': 'ice'};
   // var obj2 = {"name": 'panda'};
-  // var str1 = 'ice';
-  // var str2 = 'ice';
+  var str1 = 'ice';
+  var str2 = 'ice';
   // print(obj == obj2);
   // print(str1 == str2);
 }

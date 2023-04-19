@@ -41,6 +41,7 @@ void main() {
   // print(list2);
 
   // 4. 集合中的 if 和 集合中的 for
+  // const list1= [1,2,3];
   // var list2 = [
   //   ...list1,
   //   if (true) 99,
@@ -54,7 +55,7 @@ void main() {
   // Set friends = {'ice', 'panda', 'quezz'};
 
   // 2. 创建map,而非sets
-  // const maps = {};
+  const maps = {};
   // print(maps is Set);
   // print(maps is Map);
 

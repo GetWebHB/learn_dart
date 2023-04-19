@@ -29,7 +29,7 @@
 // }
 
 // 1. bool 可以写返回值 也可以不写
-bool isBool(obj) {
+isBool(obj) {
   return obj['name'] == null;
 }
 

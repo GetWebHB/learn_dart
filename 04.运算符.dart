@@ -1,6 +1,6 @@
 // 1. 使用了运算符，就创建了表达式
 void main(List<String> args) {
-  // 1. ~/ 除并取整
+  // 1. ~/ 除并取整 向下取整
   // print(5 ~/ 2);
   // print(5 ~/ 3);
   // print(10 ~/ 2);
@@ -36,6 +36,7 @@ void main(List<String> args) {
   // 4. 类型转换 as 类型断言
   // print(a as Object);
 
+
   // var p1 = new Person();
   // print(p1.firstName);
 
@@ -64,11 +65,12 @@ void main(List<String> args) {
 
   // 9. 级联运算符
   // 级联运算符 (.., ?..) 可以让你在同一个对象上连续调用多个对象的变量或方法。
-  var ful;
-  var age;
-  new Person()
-    ..height = 188
-    ..say();
+
+  // var ful;
+  // var age;
+  // new Person()
+  //   ..height = 188
+  //   ..say();
 
   // 等价于
   // var p1 = new Person();
