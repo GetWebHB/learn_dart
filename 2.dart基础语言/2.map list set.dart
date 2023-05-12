@@ -40,12 +40,53 @@ void main(List<String> args) {
   // 实际开发过程中Map的应用
   Map<String, dynamic> info = {'name': 'ice'};
   // 修改/增加 -> 只有括号着一种语法 js中可以通obj.xxx的形式
-  info['name'] = 'panda';  
+  info['name'] = 'panda';
   info['age'] = 20;
   // print(info);
 
   // 遍历这个对象 -> js中要是一个可迭代对象
   info.forEach((key, value) {
-    print('$key, $value, `----');
+    // print('$key, $value, `----');
   });
+
+  // list
+  // 1.非固定长度list
+  // var list1 = List();
+  // List list2 = List();
+
+  // print(list1.length);
+  var list3 = [];
+  // print(list3.length);
+  // list3.add(1);
+  // list3.add(10);
+  // print(list3);
+
+  // 固定类型的list
+  var list4 = <String>[];
+  list4.add('1');
+  list4.add('2');
+  list4.add('9');
+  // list4.add(3);
+  // list4.add(1);
+  // print(list4);
+
+  // 遍历获取元素
+  // list4.forEach((element) {
+  //   print(element);
+  // });
+
+  // for (int i = 0; i < list4.length; i++) {
+  //   print(list4[i]);
+  // }
+
+  // for in
+  // for (var val in list4) {
+  //   print(val);
+  // }
+
+  // 利用迭代器
+
+  // while (list4.iterator.moveNext()) {
+  //   var val = list4.iterator.current;
+  // }
 }
